@@ -1,0 +1,31 @@
+.ancho {
+    width: 60%;
+}
+
+.button-color {
+    background-color: #EF6C00;
+}
+
+.font-color {
+    color: #EDE7F6;
+}
+
+input[type="email"].form-control:hover {
+    border: 1px solid #F9A825;
+}
+
+input[type="password"].form-control:hover {
+    border: 1px solid #F9A825;
+}
+
+input[type="text"].form-control:hover {
+    border: 1px solid #F9A825;
+}
+
+input[type="tel"].form-control:hover {
+    border: 1px solid #F9A825;
+}
+
+a.mx-2:hover {
+    color: #F9A825;
+}
