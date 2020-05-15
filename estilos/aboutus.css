@@ -1,0 +1,23 @@
+img {
+    max-width: 100%;
+}
+
+.fondomanuel {
+
+
+    background-image:
+        url(..//Imagenes/1837.jpg);
+
+    background-repeat: no-repeat;
+    max-width: 100%;
+
+
+
+
+}
+
+.contenedor {
+
+    height: 600px;
+
+}
