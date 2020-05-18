@@ -628,7 +628,8 @@ ul.download-list li {
 ul.download-list li a {
 	color: #fff;
 	font-family: 'Roboto', sans-serif;
-	font-size: 16px;
+	font-weight: bolder;
+	font-size: 22px;
 	border: 2px solid #fff;
 	border-radius: 5px 5px;
 	padding: 15px 30px;
