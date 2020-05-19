@@ -149,7 +149,7 @@ img {
 }
 
 .contedorvideo {
-    display: grid;
+
     grid-template-columns: 900px;
 }
 
