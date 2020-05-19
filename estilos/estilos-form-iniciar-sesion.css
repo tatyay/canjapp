@@ -8,7 +8,7 @@
 }
 
 .font-color {
-    color: #EDE7F6;
+    color: #499ab3;
 }
 
 input[type="email"].form-control:hover {
@@ -60,7 +60,7 @@ a.mx-2:hover {
 .card2 {
     border: none;
     margin-right: 50px;
-    margin-top: 20px;
+    margin-top: 80px;
     background-color: rgb(243, 242, 240);
     /*opacity: 0.9;*/
 }

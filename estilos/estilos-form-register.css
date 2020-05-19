@@ -1,3 +1,20 @@
+body {
+    background-image: url("../Imagenes/registro.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    max-width: 80%;
+    /*filter: blur(0.5);*/
+    background-position: center center;
+    box-sizing: border-box;
+    /*: 1px solid springgreen;*/
+    /*margin: 10px;*/
+}
+
+img {
+    max-width: 100%;
+}
+
 .ancho {
     width: 40%;
 }
@@ -31,16 +48,7 @@ a.mx-2:hover {
     color: #F9A825;
 }
 
-.background-image {
-    background-image: url("../Imagenes/registro.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover !important;
-    /*width: 00px !important;*/
-    /*background: rgb(247, 224, 196, 0.9);*/
-    /*filter: blur(1px);*/
 
-}
 
 .opacidad {
     opacity: 0.9;
@@ -64,6 +72,7 @@ a.mx-2:hover {
     margin-right: 50px;
     margin-top: 20px;
     background-color: rgb(236, 236, 233);
+    margin-bottom: 20px;
 }
 
 .button-color:hover {
