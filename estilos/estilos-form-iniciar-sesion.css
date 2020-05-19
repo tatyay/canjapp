@@ -1,0 +1,87 @@
+.ancho {
+    width: 40%;
+}
+
+.button-color {
+    background-color: #EF6C00;
+    opacity: 0.9;
+}
+
+.font-color {
+    color: #499ab3;
+}
+
+input[type="email"].form-control:hover {
+    border: 1px solid #F9A825;
+}
+
+input[type="password"].form-control:hover {
+    border: 1px solid #F9A825;
+}
+
+input[type="text"].form-control:hover {
+    border: 1px solid #F9A825;
+}
+
+input[type="tel"].form-control:hover {
+    border: 1px solid #F9A825;
+}
+
+a.mx-2:hover {
+    color: #F9A825;
+}
+
+.background-image {
+    background-image: url("../Imagenes/64857.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*background: rgb(247, 224, 196, 0.9);*/
+    /*filter: blur(1px);*/
+
+}
+
+.opacidad {
+    opacity: 0.9;
+}
+
+.float {
+    float: left;
+}
+
+.card1 {
+    border: none;
+    width: 500px;
+    margin-left: 50px;
+    /* background: rgb(241, 213, 179, 0.3);*/
+
+}
+
+.card2 {
+    border: none;
+    /* margin-right: 50px;*/
+    margin-top: 80px;
+    background-color: rgb(243, 242, 240);
+    /*opacity: 0.9;*/
+}
+
+.button-color:hover {
+
+    opacity: 1.0;
+    color: aliceblue;
+}
+
+.font-size-Anuncio {
+    font-size: 70px;
+    color: aliceblue;
+    opacity: 0.9;
+
+}
+
+.border-checkbox {
+    border: 1px solid #F9A825;
+}
+
+.border-checkbox:hover {
+    color: #F9A825;
+}
