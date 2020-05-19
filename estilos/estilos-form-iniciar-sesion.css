@@ -59,7 +59,7 @@ a.mx-2:hover {
 
 .card2 {
     border: none;
-    margin-right: 50px;
+    /* margin-right: 50px;*/
     margin-top: 80px;
     background-color: rgb(243, 242, 240);
     /*opacity: 0.9;*/
