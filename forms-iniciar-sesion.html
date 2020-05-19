@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/estilos-form-iniciar-sesion.css">
+
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -12,23 +12,25 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/estilos-form-iniciar-sesion.css">
     <title>Document</title>
 </head>
 
-<body>
+<body class="container background-image opacidad">
 
-    <div class="container d-flex justify-content-center align-items-center">
-        <div class="ancho ">
+    <div class="container d-flex justify-content-center align-items-center float ">
+        <div class="ancho card2">
             <!-- Default form login -->
-            <form class="text-center border border-light p-4" action="#!">
-                <div class="titulo text-primary">
-                    <h1 class="h4 mb-3 my-3">Inicia Sesión</h1>
-                </div>
+            <form class="text-center  p-5" action="#!">
+
+                <p class="h4 mb-4 text-primary">Inicia Sesión</p>
+
                 <!-- Email -->
                 <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail">
 
                 <!-- Password -->
                 <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Contraseña">
+
                 <div class="d-flex justify-content-around">
                     <div>
                         <!-- Remember me -->
@@ -39,20 +41,20 @@
                     </div>
                     <div>
                         <!-- Forgot password -->
-                        <a href="">¿Olvidó la contraseña?</a>
+                        <a href="">¿Olvidaste la contraseña?</a>
                     </div>
                 </div>
 
                 <!-- Sign in button -->
-                <button class="btn button-color btn-block my-4 font-color" type="submit">Inicia Sesión</button>
+                <button class="btn button-color btn-block my-4 font-color" type="submit">Iniciar sesión</button>
 
                 <!-- Register -->
                 <p>¿No eres miembro?
-                    <a href="">Registrate aquí</a>
+                    <a href="./forms-register.html">Registrate</a>
                 </p>
 
                 <!-- Social login -->
-                <p>o registrese en:</p>
+                <p>o inicia sesión en:</p>
 
                 <a href="#" class="mx-2" role="button"><i class="fa fa-facebook-f" aria-hidden="true"></i></a>
                 <a href="#" class="mx-2" role="button"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -62,7 +64,16 @@
             </form>
             <!-- Default form login -->
         </div>
+
+
+
     </div>
+
+
+
+
+
+
 
 
 
