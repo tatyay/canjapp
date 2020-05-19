@@ -32,7 +32,7 @@ a.mx-2:hover {
 }
 
 .background-image {
-    background-image: url("../Imagenes/90452.jpg");
+    background-image: url("../Imagenes/64857.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -61,6 +61,8 @@ a.mx-2:hover {
     border: none;
     margin-right: 50px;
     margin-top: 20px;
+    background-color: rgb(243, 242, 240);
+    /*opacity: 0.9;*/
 }
 
 .button-color:hover {
@@ -74,4 +76,12 @@ a.mx-2:hover {
     color: aliceblue;
     opacity: 0.9;
 
+}
+
+.border-checkbox {
+    border: 1px solid #F9A825;
+}
+
+.border-checkbox:hover {
+    color: #F9A825;
 }
