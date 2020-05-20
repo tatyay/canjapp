@@ -55,7 +55,7 @@ background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 
     background-color: white !important;
     transition-duration: 0.4s;
     border: 2px solid;
-    font-size: 30px !important;
+    font-size: 20px !important;
 }
 
 .botones:hover {
@@ -84,13 +84,13 @@ background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 
 }
 
 .titulo h1 {
-    text-align: center;
+    text-align: center !important;
     font-family: 'Roboto',
         sans-serif;
     font-size: 60px;
     color: black;
     font-weight: bolder !important;
-    line-height: 5px !important;
+
 }
 
 .titulo2 h1 {
@@ -103,15 +103,18 @@ background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 
 }
 
 .subtitle-mio {
-    font-size: 30px !important;
-    color: black;
+    font-size: 23px !important;
+    color: white;
     font-weight: bolder !important;
+    background: rgb(158, 158, 158);
+    background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 30px;
 }
 
 .container-mio {
     text-align: center;
     font-family: 'Roboto',
-        sans-serif;
+        sans-serif !important;
     font-size: 30px;
     color: black;
     background-image: url('equipo1.jpg') !important;
@@ -144,7 +147,7 @@ background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 
 .container-propio {
     background-color: white;
     font-family: 'Roboto',
-        sans-serif;
+        sans-serif !important;
     font-size: 25px;
     background-color: white;
 
@@ -157,22 +160,26 @@ background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 
     align-items: center;
     margin: 0px;
     padding: 10px;
+    font-family: 'Roboto',
+        sans-serif !important;
 }
 
 
 .boton-cierre {
     border-bottom-color: blue !important;
-    color: black !important;
-    background-color: white !important;
+    color: white !important;
+    font-weight: bolder !important;
+    background: rgb(158, 158, 158);
+    background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 1) 100%, rgba(0, 212, 255, 1) 100%);
     transition-duration: 0.4s;
     border: 2px solid;
     font-size: 30px !important;
 }
 
 .boton-cierre:hover {
-    background: rgb(0, 140, 255);
-    background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 1) 100%, rgba(0, 212, 255, 1) 100%);
-    color: white !important;
+    color: rgb(0, 140, 255);
+    color: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    background: rgb(238, 159, 85) !important;
 }
 
 
@@ -181,24 +188,33 @@ background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 
     background-color: rgb(85, 64, 64);
     color: white;
     text-align: center;
+    font-family: 'Roboto',
+        sans-serif;
+
 }
 
 .botones2 {
     border-bottom-color: blue !important;
-    color: black !important;
-    background-color: white !important;
+    color: white !important;
+    font-weight: bolder !important;
+    background: rgb(158, 158, 158);
+    background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 1) 100%, rgba(0, 212, 255, 1) 100%);
     border-color: white;
     border: 10px solid black;
     transition-duration: 0.4s;
-    font-size: 30px !important;
+    font-size: 20px !important;
 }
 
 .botones2:hover {
-    background: rgb(0, 140, 255);
-    background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 1) 100%, rgba(0, 212, 255, 1) 100%);
-    color: white !important;
+    color: rgb(238, 159, 85);
+    color: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 1) 100%, rgba(0, 212, 255, 1) 100%);
+    background: rgb(238, 159, 85) !important;
 
 }
+
+/* background: rgb(0, 140, 255);
+background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 1) 100%, rgba(0, 212, 255, 1) 100%);
+color: white !important; */
 
 
 .boton1 {
@@ -258,10 +274,10 @@ background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 
 }
 
 .logos {
-    height: 100%;
+    height: 250px;
+    object-fit: contain;
     width: 100%;
     align-items: center;
-    float: left;
     lighting-color: black;
 }
 
@@ -280,6 +296,7 @@ background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 
     background-size: 100%, 100%;
     border-radius: 0%;
     border: 1px solid blue;
+
 }
 
 @media only sreen and (max-width: 800px) {
