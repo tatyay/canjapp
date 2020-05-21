@@ -202,7 +202,7 @@ Estilos footer y menu principal
 */
 
 .cabecera {
-    background-color: #007bff;
+    background-color: #EF6C00;
     color: white;
     
   }
@@ -222,7 +222,7 @@ Estilos footer y menu principal
   
   .pie-pagina {
     padding-top: 1em;
-    background-color: #007bff;
+    background-color: #EF6C00;
     color: white;
   }
   
@@ -242,12 +242,12 @@ Estilos footer y menu principal
   }
   
   .iconos .icon:hover {
-    color: #3B62A9;
+    color: #D96200;
   }
   
   .copyright {
     padding: 2em;
-    background-color: #1473E3;
+    background-color: #D96200;
     color: #efebe9;
     text-align: center;
   }

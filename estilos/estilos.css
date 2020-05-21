@@ -3,7 +3,7 @@ Estilos footer, carrusel y menu principal
 */
 
 .cabecera {
-    background-color: #007bff;
+    background-color: #EF6C00;
     color: white;
     
   }
@@ -24,24 +24,18 @@ align-items: initial;
     padding: 1em;
     background-color: white;
   }
-  
-  .carousel-member-img {
-    display: block;
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-  }
-  
-  .carrusel-legend {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 0.8em;
-    border-radius: 1em;
-  }
+
+  .imagenescarr {
+    background-color: white;
+    transition: transform 2s ease;
+    margin: 0px;
+
+
+}
   
   .pie-pagina {
     padding-top: 1em;
-    background-color: #007bff;
+    background-color: #EF6C00;
     color: white;
   }
   
@@ -61,21 +55,318 @@ align-items: initial;
   }
   
   .iconos .icon:hover {
-    color: #3B62A9;
+    color: #D96200;
   }
   
   .copyright {
     padding: 2em;
-    background-color: #1473E3;
+    background-color: #D96200;
     color: #efebe9;
     text-align: center;
   }
   
   @media screen and (max-width: 576px) {
     .carousel-member-img {
-      height: 300px;
+      height: 100%;
+      width: 100%;
     }
   }
   /*
 Estilos footer, carrusel y menu principal
 */
+
+
+/* Estilos compartidos */
+.cuadrito {
+  background: transparent;
+
+  margin: 0px;
+  padding: 0px;
+  border: black !important;
+  color: black;
+  font-size: 25px;
+  border-radius: 30px !important;
+
+}
+
+.imagenesw {
+  height: 350px;
+  width: 350px;
+  border-radius: 50% 50%;
+}
+
+.imagenesa {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  border-radius: 50% 50%;
+}
+
+.imag-cabeza {
+
+  align-items: center;
+  align-self: center;
+  align-content: center;
+
+}
+
+
+.botones {
+  border-bottom-color: blue !important;
+  color: black !important;
+  background-color: white !important;
+  transition-duration: 0.4s;
+  border: 2px solid;
+  font-size: 30px !important;
+}
+
+.botones:hover {
+  background: rgb(0, 140, 255);
+  background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 1) 100%, rgba(0, 212, 255, 1) 100%);
+  color: white !important;
+}
+
+.boton {
+  align-content: center !important;
+  text-align: center !important;
+  align-items: center !important;
+}
+
+
+
+
+.cuadrito2 {
+  background-color: white !important;
+  margin: 0px;
+  padding: 50px;
+  border: black !important;
+  border-right-width: 10px;
+  border-radius: 10px !important;
+
+}
+
+.titulo h1 {
+  text-align: center;
+  font-family: 'Roboto',
+      sans-serif;
+  font-size: 60px;
+  color: black;
+  font-weight: bolder !important;
+  /* line-height: 5px !important;*/
+}
+
+.titulo2 h1 {
+  text-align: center;
+  font-family: 'Roboto',
+      sans-serif;
+  font-size: 80px !important;
+  color: rgb(238, 159, 85);
+  font-weight: bolder !important;
+}
+
+.subtitle-mio {
+  font-size: 30px !important;
+  color: black;
+  font-weight: bolder !important;
+}
+
+.container-mio {
+  text-align: center;
+  font-family: 'Roboto',
+      sans-serif;
+  font-size: 30px;
+  color: black;
+  background-image: url('equipo1.jpg') !important;
+
+}
+
+.texto-tarjeta {
+
+  font-family: 'Roboto',
+      sans-serif;
+}
+
+
+.descripcion {
+  text-align: center;
+}
+
+.tarjeta {
+  margin: 50px !important;
+  padding: 5px;
+
+}
+
+.conect-value h1 {
+  text-align: center;
+  font-size: 50px;
+
+}
+
+.container-propio {
+  background-color: white;
+  font-family: 'Roboto',
+      sans-serif;
+  font-size: 25px;
+  background-color: white;
+
+}
+
+
+.boton-final {
+  text-align: center !important;
+  align-content: center !important;
+  align-items: center;
+  margin: 0px;
+  padding: 10px;
+}
+
+
+.boton-cierre {
+  border-bottom-color: blue !important;
+  color: black !important;
+  background-color: white !important;
+  transition-duration: 0.4s;
+  border: 2px solid;
+  font-size: 30px !important;
+}
+
+.boton-cierre:hover {
+  background: rgb(0, 140, 255);
+  background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 1) 100%, rgba(0, 212, 255, 1) 100%);
+  color: white !important;
+}
+
+
+
+.headerweimar {
+  background-color: rgb(85, 64, 64);
+  color: white;
+  text-align: center;
+}
+
+.botones2 {
+  border-bottom-color: blue !important;
+  color: black !important;
+  background-color: white !important;
+  border-color: white;
+  border: 10px solid black;
+  transition-duration: 0.4s;
+  font-size: 30px !important;
+}
+
+.botones2:hover {
+  background: rgb(0, 140, 255);
+  background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 1) 100%, rgba(0, 212, 255, 1) 100%);
+  color: white !important;
+
+}
+
+
+.boton1 {
+  align-content: center !important;
+  text-align: center !important;
+  align-items: center !important;
+}
+
+.imagenes {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  float: center;
+  opacity: 100%;
+
+}
+
+.text-image {
+  font-size: 30px;
+  color: rgb(240, 231, 231);
+  font-family: 'Roboto',
+      sans-serif;
+  line-height: 80px;
+  text-shadow: rgb(92, 92, 238);
+  background-color: rgba(0, 0, 0, 0.534);
+  border-radius: 10px;
+}
+
+.texto-carrusel {
+  font-size: 40px;
+  color: rgb(238, 159, 85);
+  font-family: 'Roboto',
+      sans-serif;
+  font-weight: bolder !important;
+
+
+}
+
+.imagenescarr {
+  background-color: white;
+  transition: transform 3s ease;
+  margin: 0px;
+
+
+}
+
+.aliados {
+  text-align: center;
+  font-size: 50px;
+  background-color: white;
+}
+
+.imagenescarrlog {
+  background-color: white;
+  transition: transform 3s ease;
+
+}
+
+/* .logos {
+  height: 300px;
+  width: 300px;
+  align-items: center;
+  float: left;
+  lighting-color: black;
+}
+
+.logos-aliados {
+  text-align: center;
+  font-size: 50px;
+  background-color: white;
+} */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 30px;
+  width: 30px;
+  outline: black;
+  background-color: black !important;
+  background-size: 100%, 100%;
+  border-radius: 0%;
+  border: 1px solid #EF6C00;
+}
+
+@media only sreen and (max-width: 800px) {
+  .container-mio {
+      width: 80%;
+      padding: 0;
+  }
+
+}
+
+@media only screen and (max-width:500px) {
+
+  .container-mio {
+
+      width: 100%;
+  }
+}
+
+.productos-carrusel {
+  width: 50%;
+  margin: 15px;
+  padding: 20px;
+  background-color: darkslategray;
+  height: 40%;
+  /* height: 60px;*/
+}
