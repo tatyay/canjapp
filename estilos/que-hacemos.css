@@ -5,13 +5,20 @@
 body {
     margin: 0;
 
-    background-color: rgb(221, 221, 247) !important;
+    /* background-color: rgb(221, 221, 247) !important; */
 }
 
 /* background-color: rgb(226, 232, 243) !important; */
 
 /* background: rgb(0, 140, 255);
 background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 1) 100%, rgba(0, 212, 255, 1) 100%); */
+
+
+.backg-ta {
+    background-color: white;
+    /* background-color: #F9FAFF; */
+}
+
 
 .cuadrito {
     background: transparent;
@@ -56,6 +63,7 @@ background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 
     transition-duration: 0.4s;
     border: 2px solid;
     font-size: 30px !important;
+    border-radius: 1em;
 }
 
 .botones:hover {
@@ -87,8 +95,8 @@ background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 
     text-align: center;
     font-family: 'Roboto',
         sans-serif;
-    font-size: 60px;
-    color: black;
+    font-size: 50px;
+    color:#EF6C00;
     font-weight: bolder !important;
     /* line-height: 5px !important;*/
 }
@@ -97,9 +105,11 @@ background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 
     text-align: center;
     font-family: 'Roboto',
         sans-serif;
-    font-size: 80px !important;
-    color: rgb(238, 159, 85);
+    font-size: 50px !important;
+    color: #EF6C00;
     font-weight: bolder !important;
+    padding-bottom: 1em;
+    padding-top: 0.5em;
 }
 
 .subtitle-mio {
@@ -191,6 +201,8 @@ background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 
     border: 10px solid black;
     transition-duration: 0.4s;
     font-size: 30px !important;
+    border-radius: 1.25rem !important;
+
 }
 
 .botones2:hover {
@@ -218,7 +230,7 @@ background: linear-gradient(90deg, rgba(0, 140, 255, 1) 43%, rgba(25, 208, 253, 
 
 .text-image {
     font-size: 60px;
-    color: rgb(240, 231, 231);
+    color: white;
     font-family: 'Roboto',
         sans-serif;
     line-height: 80px;
@@ -346,7 +358,6 @@ Estilos footer y menu principal
     padding-top: 1em;
     /* background-color: #EF6C00; */
     background-color: #007BFF;
-    
     color: white;
   }
   
