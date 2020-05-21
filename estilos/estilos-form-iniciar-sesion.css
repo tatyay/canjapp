@@ -5,65 +5,65 @@ Estilos footer y menu principal
 .cabecera {
     background-color: #EF6C00;
     color: white;
-    
-  }
+
+}
 
 .logo-imagen {
     align-items: initial;
 
-  }
-  
-  .logo-imagenCanjapp {
+}
+
+.logo-imagenCanjapp {
     float: inline-start;
     margin-left: 2em;
     width: 5%;
 
-  }
+}
 
-  .main-content {
+.main-content {
     padding: 1em;
     background-color: white;
-  }
-  
-  .nav-tatiana {
-      padding: 1em;
-      font: sans serif;
-      font-size: 15px;
-  }
-   
-  .pie-pagina {
+}
+
+.nav-tatiana {
+    padding: 1em;
+    font: sans serif;
+    font-size: 15px;
+}
+
+.pie-pagina {
     padding-top: 1em;
     background-color: #EF6C00;
     color: white;
-  }
-  
-  .iconos {
+}
+
+.iconos {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-  }
-  
-  .iconos .icon {
+}
+
+.iconos .icon {
     display: block;
     padding: 1em;
     font-size: 2em;
     color: inherit;
-  }
-  
-  .iconos .icon:hover {
+}
+
+.iconos .icon:hover {
     color: #D96200;
-  }
-  
-  .copyright {
+}
+
+.copyright {
     padding: 1em;
     background-color: #D96200;
     color: #efebe9;
     text-align: center;
-  }
-  
-   /*
+}
+
+/*
 Estilos footer y menu principal
 */
 
@@ -79,7 +79,7 @@ Estilos footer y menu principal
 }
 
 .font-color {
-    color: #499ab3;
+    color: whitesmoke
 }
 
 input[type="email"].form-control:hover {
