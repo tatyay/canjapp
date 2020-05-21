@@ -195,3 +195,63 @@ img {
     line-height: 48px;
     font-weight: 300;
 }
+
+
+/*
+Estilos footer y menu principal
+*/
+
+.cabecera {
+    background-color: #007bff;
+    color: white;
+    
+  }
+
+
+.logo-imagenCanjapp {
+    float: inline-start;
+    margin-left: 2em;
+    width: 5%;
+
+  }
+  
+  .main-content {
+    padding: 1em;
+    background-color: white;
+  }
+  
+  .pie-pagina {
+    padding-top: 1em;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .iconos {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .iconos .icon {
+    display: block;
+    padding: 1em;
+    font-size: 2em;
+    color: inherit;
+  }
+  
+  .iconos .icon:hover {
+    color: #3B62A9;
+  }
+  
+  .copyright {
+    padding: 2em;
+    background-color: #1473E3;
+    color: #efebe9;
+    text-align: center;
+  }
+  
+   /*
+Estilos footer, carrusel y menu principal
+*/
